@@ -1,40 +1,13 @@
 <html>
 	<head>
 		<link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-		<style>
-			body {
-				font-family: Arial, sans-serif;
-				margin: 20px;
-				line-height: 1.6;
-			}
-			h3 {
-				color: #333;
-				margin-top: 20px;
-			}
-			ul {
-				list-style-type: disc;
-				padding-left: 20px;
-			}
-			li {
-				margin: 10px 0;
-			}
-			.endpoint {
-				font-family: monospace;
-				background-color: #f5f5f5;
-				padding: 2px 5px;
-				border-radius: 3px;
-			}
-		</style>
 	</head>
 	<body>
-		<h1>Simple Web Server</h1>
-		<h3>You can make the following GET requests:</h3>
+		<h3>You can make the following GET requests<h3>
 		<ul>
-			<li><span class="endpoint">/file/sample.html</span> -- returns the content of the file sample.html</li>
-			<li><span class="endpoint">/json</span> -- returns a json of the /random request</li>
-			<li><span class="endpoint">/random</span> -- returns index.html</li>
-			<li><span class="endpoint">/multiply?num1=3&num2=4</span> -- multiplies the two numbers and returns the result</li>
-			<li><span class="endpoint">/github?query=users/amehlhase316/repos</span> -- returns GitHub repositories information</li>
+			<li>/file/sample.html -- returns the content of the file sample.html</li>
+			<li>/json -- returns a json of the /random request</a></li>
+			<li>/random -- returns index.html</a></li>
 		</ul>
 		<h3>File Structure in www (you can use /file/www/FILENAME):</h3>
 		${links}
